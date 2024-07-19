@@ -102,6 +102,7 @@ class Game:
         surface.blit(textobj, textrect)
 
     click = False
+    # cOMMENT
 
     def get_font(font, size):  # Returns Press-Start-2P in the desired size
         return pygame.font.Font("data/font/VCR_OSD_MONO_1.001.ttf", size)
@@ -189,7 +190,6 @@ class Game:
                         pygame.quit(self.run)
             if self.transition < 0:
                 self.transition += 1
-                
 
             if self.dead:
                 self.dead += 1
